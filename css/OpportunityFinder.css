@@ -1,0 +1,52 @@
+.iconClsOppFinderCompare{
+}
+
+/*To align Margin Label under left of FILTER Label. 52px calculated value*/
+.filtereditorcollapsed {
+  padding: 8px 25px 0 52px!important;
+}
+
+.tabs .x-btn, .tabs .x-btn.x-btn-over, .tabs .x-btn.x-btn-default-small.x-btn-pressed, .tabs .x-btn.x-btn-focus, .tabs .x-btn.x-btn-menu-active.x-btn-default-small, .tabs .x-btn.x-btn-pressed.x-btn-default-small, .tabs .x-btn.x-btn-disabled.x-btn-default-small {
+  background: gray;
+  border: none;
+  box-shadow: none!important;
+}
+
+.mainInfoToolTip{
+	
+}
+
+
+.iconClsOppFinderClearAllFilters {
+	background: url("../images/icons_sprite.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 30px;
+    width: 44px;
+    background-position: 7px -1460px;
+}
+.x-btn.x-btn-pressed .iconClsOppFinderClearAllFilters {
+    background-position: 7px -1530px;
+}
+
+
+.clsOppFinderCompare a.x-btn, .clsOppFinderClearAllFilters a.x-btn {
+    margin-right: 20px;
+    width: 50px;
+    padding-top: 0;
+}
+.clsOppFinderCompare .x-btn-button,.clsOppFinderClearAllFilters .x-btn-button {
+    vertical-align: top;
+}
+.clsOppFinderCompare .x-btn-inner-default-small, .clsOppFinderClearAllFilters .x-btn-inner-default-small {
+    color: #676a6e;
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    line-height: 10px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: normal;
+    width: 44px;
+}

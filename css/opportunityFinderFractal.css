@@ -1,0 +1,375 @@
+.apoChartSettingsRefreshButton{
+	display: none;
+}
+
+.apoPanelMain {
+	/*padding: 14px 0 10px 0px;*/
+}
+
+.apoChartsPanel.apoPanelMain {
+	/*padding: 8px 0 20px 25px;*/
+}
+
+.apoPanelBody{
+	/*padding: 0;*/
+}
+
+.chartsBody>.x-box-inner {
+  background:#fafcfe;
+}
+
+.clsHeatMapMainContainer{
+	padding:8px 25px;
+}
+
+/* heatmap styling */
+.apoheatmap{
+	padding: 8px 25px;
+}
+
+.apoheatmap .x-body{
+	/*padding: 8px 25px;*/
+}
+
+.heatMapMainContainer{
+	/*padding: 3px 20px 0 20px;*/
+	background:#fafcfe;
+	/*background:#000000;*/
+}
+/*
+.heatMapMainContainer .x-box-inner{
+	height: 285px!important;
+}*/
+
+.heatMapTitle
+{
+	font-size: 18px!important;
+	line-height: 20px!important;
+	font-family: "Roboto", sans-serif!important;
+	padding: 0px!important;
+	color: #3c404b!important;
+	text-transform: uppercase!important;
+	font-weight: 300!important;
+	/*margin: 6px 0 0 14px!important;
+    display: block;*/
+}
+
+.heatMapYLabelMeasure .x-component ,
+.heatMapXLabelMeasure .x-component
+{
+	font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #3c404b;
+    font-weight: 400;
+}
+
+.heatMapXLabelMeasure .x-component{
+	letter-spacing: -0.2px;
+}
+
+.heatMapMainContainer td.heatMapValueCell{
+	padding-right: 6px;
+	padding-bottom: 6px;
+	height: 34px!important;
+	border-color: #958e9b;
+}
+.heatMapMainContainer td.heatMapValueCell .x-component{
+	font-size: 14px!important;
+	line-height: 16px!important;
+	font-family: "Roboto", sans-serif!important;
+	color: #706365!important;
+	font-weight: 300!important;
+	vertical-align: bottom;
+}
+
+.heatMapMainContainer td.heatMapYLabel
+{
+	padding-right: 8px; 
+}
+.heatMapMainContainer td.heatMapYLabel .x-component,
+.heatMapMainContainer td.heatMapXLabel .x-component
+{
+	color: #7c7f85;
+    font-size: 11px;
+    line-height: 13px;
+    font-family: "Roboto", sans-serif!important;
+    font-weight: 300;
+    /*display: inline-block;*/
+}
+
+.heatMapLegendColors{
+	padding: 32px 0 0 45px!important;
+}
+
+.heatMapLegendColors tr{
+	height: 34px!important;
+}
+
+.heatMapLegendColors tr td{
+	line-height: 14px;
+}
+
+.heatMapLegendLabels{
+	font-size: 12px;
+	line-height: 14px;
+	color: #5a6576;
+	font-family: "Roboto", sans-serif!important;
+
+}
+
+/* ---- chart setting styling ---- */
+
+/* toggle button styling */
+.apoChartSettings{
+	padding: 20px 22px;
+}
+.apoChartsPanel .x-docked-top{
+	margin-top: -2px;
+}
+.apoChartSettings .cls_btn_PriceQue_ToggelTask,
+.apoChartSettings .cls_btn_PriceQue_ToggelTask .x-btn-inner-default-small
+{
+	padding: 0;
+}
+.apoChartSettings .one .button-wrap
+{
+	margin-left: 0;
+}
+
+/* innner listing styling */
+.apoChartSettings .x-tab-bar-top > .x-tab-bar-body-default
+{
+	padding-bottom: 10px;
+	min-height: auto;
+}
+.apoChartSettings .x-tab.x-tab-default{
+	border-right: 1px solid #b2d5f6;
+	box-shadow: none;
+}
+.apoChartSettings .x-tab.x-tab-default:last-child{
+	border-right: none;
+}
+.apoChartSettings .x-tab.x-tab-default:first-child{
+	padding-left: 0;
+}
+
+.apoChartSettings .x-tab.x-tab-default .x-tab-button-default
+{
+	height: auto;
+}
+.apoChartSettings .x-tab-default .x-tab-inner-default{
+	font-size: 11px;
+	line-height: 15px;
+	padding: 0 5px;
+	color: #d9eafa;
+	font-weight: 300;
+	font-family: "Roboto", sans-serif!important;
+}
+
+/*.apoChartSettings .x-tab.x-tab-active.x-tab-default .x-tab-inner-default
+{
+	font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 14px;
+    font-family: "Roboto", sans-serif!important;
+    padding: 0;
+}*/
+
+
+.one .button-bg{
+	width: 246px;
+}
+.button-out, .button-in{
+	width: 119px;
+}
+.button-switch
+{
+	border-radius: 3px;
+}
+.x-btn-pressed .one .button-switch{
+	left: 119px;
+}
+
+.apoChartSettingsBody{
+	/*padding-left: 0;
+	padding-top: 0px;*/
+}
+
+/*.apoChartSettingsBody .x-grid-header-ct{
+	margin-top: 54px;
+	margin-bottom: 0px;
+}*/
+
+.apoChartSettings .x-checkbox-default-cell{
+  width: 20px!important;
+}
+
+.apoChartSettings .x-form-checkboxgroup .x-form-item-label-top > .x-form-item-label-inner,
+.apoChartSettings .x-column-header-text,
+.apoChartSettings .x-tab.x-tab-active.x-tab-default .x-tab-inner-default
+{
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 14px;
+	padding:0 0 15px 0!important;
+	text-indent: 15px;
+	display: inline;
+	font-family: "Roboto", sans-serif!important;
+}
+
+
+/* radio button styling */
+.x-form-cb-checked .x-form-radio-default,
+.x-form-cb-checked .x-form-radio-default.x-field-form-checkbox-focus
+{
+	background-position: 0 -54px;
+}
+
+/* listing styling */
+.x-form-item-body-default.x-form-checkboxgroup-body,
+.apoChartSettingsBody .x-panel  .x-grid-body{
+  padding: 10px 10px 0 15px;
+  border-left: 1px solid #81B9F0;
+  vertical-align: top;
+  /*margin-top: 10px;*/
+}
+
+.clsApoChartSettingHeatMapRadiGrp1:first-child .x-form-item-body-default.x-form-checkboxgroup-body,
+.clsApoChartSettingRadioGroup:first-child .x-form-item-body-default.x-form-checkboxgroup-body,
+.clsApoChartSettingStackBar:first-child .x-form-item-body-default.x-form-checkboxgroup-body,
+.apoChartSettingsBody .x-panel:first-child  .x-grid-body
+{
+  border-left: none;
+  padding-left: 0px;
+}
+
+
+.apoChartSettings .x-form-checkboxgroup:first-child .x-form-item-label-top > .x-form-item-label-inner{
+	text-indent: 5px;
+	padding-left: 0!important;
+}
+
+.apoChartSettings .x-form-cb-label-default.x-form-cb-label-after{
+	font-size: 13px;
+    color: #d9eafa;
+    line-height: 18px;
+}
+
+.clsApoChartSettingRadioGroup .x-box-inner,
+.clsApoChartSettingStackBar .x-box-inner{
+	width: 100%!important;
+}
+
+.apochartsettingssubscript
+{
+  text-transform: uppercase;
+  position: absolute;
+  top: -4px;
+  right: 0;
+  font-size: 9px;
+  color: #d9eafa;
+  font-family: "Roboto", sans-serif!important;
+}
+
+/* ---- y-axis n series styling  ---- */
+.apoChartSettingsBody .x-grid .x-column-header-inner
+{
+	padding: 0;
+}
+
+/* checkbox styling */
+.apoChartSettingsBody .x-form-cb-checked .x-form-checkbox-default
+{
+	background-position: 0 -54px;
+}
+
+.apoChartSettingsBody .x-field-form-checkbox-focus
+{
+	background-position: 0 0;
+}
+
+.apotablesettings .x-panel-body .x-grid-cell-inner,
+.apoChartSettings .x-panel-body .x-grid-cell-inner,
+.apoChartSettings .x-form-cb-label-default.x-form-cb-label-after {
+	font-size: 13px;
+    color: #d9eafa;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif!important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+.apoChartSettings .x-form-cb-label-default.x-form-cb-label-after{
+	    padding-left: 19px;
+}
+
+.apoChartSettings .x-form-checkboxgroup .x-form-item-label-top > .x-form-item-label-inner{
+	    padding-left:15px!important;
+}
+
+.apotablesettings .x-panel-body .x-grid-cell:nth-child(2) .x-grid-cell-inner,
+.apoChartSettings .x-panel-body .x-grid-cell:nth-child(2) .x-grid-cell-inner
+{
+	text-transform: capitalize;
+}
+
+.apoChartSettings .x-grid-with-row-lines .x-grid-item{
+	margin-bottom: 5px;
+}
+.apoChartSettings .x-grid-with-row-lines .x-grid-item:first-child{
+	border-top: none;
+}
+
+.apoChartSettings .x-panel:nth-child(2) .x-column-header-text
+{
+	margin-left: 15px;
+}
+
+
+
+#stackedbarchartsettings-1185-targetEl .x-panel,
+#barchartsettings-1169-targetEl .x-panel {
+	margin-left: 72px;
+}
+
+
+.apoChartSettings .x-form-cb-checked .x-form-cb-label-default.x-form-cb-label-after .apochartsettingssubscript
+{
+	color: #ffffff;
+}
+
+.iconClsOppFinderCompare  {
+	background: url("../images/icons_sprite.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 30px;
+    width: 44px;
+    background-position:7px -2159px;
+}
+
+.x-btn.x-btn-pressed .iconClsOppFinderCompare {
+    background-position: 7px -2239px;
+}
+
+.clsOppFinderCompare {
+	left: 30px!important;
+}
+
+.heatMapPanel {
+	/*height: 353px!important;*/
+}
+
+.apoChartSettingsBody  .x-box-scroller-body-horizontal{
+	margin-top: 15px;
+}
+.apoChartSettings .x-fit-item > .x-panel-body.x-layout-fit	{
+	margin-top: 30px;
+}
+

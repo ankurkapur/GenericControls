@@ -1,0 +1,911 @@
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 11 Feb 2015;
+*/
+
+.x-panel-body-default, body.x-border-layout-ct, div.x-border-layout-ct, .x-grid-header-ct {
+    border: none;
+    background: transparent;
+}
+.cls_Global_toolbar, .cls_Global_toolbar > .x-panel-body ,.cls_conta_GlobalRibbon_MainView, .cls_conta_GlobalRibbon_MainView .x-box-inner {
+    width: 104px!important;
+}
+div#toolbarContainer-body {
+    background: #6a7080;
+    border: none;
+}
+.x-btn, .x-btn.x-btn-over, .x-btn.x-btn-default-small.x-btn-pressed, .x-btn.x-btn-focus, .x-btn.x-btn-menu-active.x-btn-default-small, .x-btn.x-btn-pressed.x-btn-default-small, .x-btn.x-btn-disabled.x-btn-default-small {
+    background: transparent;
+    border: none;
+    box-shadow: none!important;
+}
+.x-btn-disabled.x-btn-default-small {
+    opacity: 1;
+}
+.x-view-item-focused {
+  outline: 0px !important;
+  outline-offset: 0px;
+}
+/* Main ribbon container Section CSS - Start */
+
+.cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-disabled .x-btn-icon-el, .cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-disabled .x-btn-inner-default-small {
+    opacity: 0.5;
+}
+.cls_conta_GlobalRibbon_MainView a.x-btn, .cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-over, .cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-default-small.x-btn-pressed, .cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-focus, .cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-disabled {
+    border-bottom: 1px solid #868b98;
+    padding: 10px 14px;
+    box-shadow: none;
+    height: 85px;
+    width: 104px !important;
+}
+.cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-default-small.x-btn-pressed {
+    background: #01b696!important;
+}
+.cls_conta_GlobalRibbon_MainView a.x-btn.x-btn-default-small.x-btn-pressed .x-btn-inner-default-small {
+    color: #fff;
+}
+.cls_conta_GlobalRibbon_MainView a.x-btn .x-btn-icon-el {
+    background: url("../images/icons_sprite.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 25px;
+    width: 74px;
+}
+.cls_conta_GlobalRibbon_MainView .x-btn-button {
+    white-space: normal;
+}
+.cls_conta_GlobalRibbon_MainView a .x-btn-inner-default-small {
+      color: #9ea6b6;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-top: 5px;
+  padding: 0;
+  text-align: center;
+  word-wrap: normal;
+  letter-spacing: -0.5px;
+}
+.cls_conta_GlobalRibbon_MainView a.x-btn.cls_btn_GlobalRibbon_hide {    
+    padding: 10px 15px;
+    height: 60px;
+}
+.cls_btn_GlobalRibbon_hide .x-btn-inner {
+    display: none;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_hide .x-btn-icon-el {
+    background-position: 24px -57px;
+    /* -181px */
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_hide.x-btn.x-btn-default-small.x-btn-pressed, .cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_hide.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 25px -110px;
+    height: 60px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_PriceQue .x-btn-icon-el {
+    background-position: 23px -181px;
+    /* -181px */
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_PriceQue.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 23px -246px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_Aggrmnt .x-btn-icon-el {
+    background-position: 23px -312px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_Aggrmnt.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 23px -377px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_QuoteWb .x-btn-icon-el {
+    background-position: 24px -436px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_QuoteWb.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 24px -496px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_Opportunities .x-btn-icon-el {
+    background-position: 25px -560px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_Opportunities.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 25px -620px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_Reports .x-btn-icon-el {
+    background-position: 27px -678px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_Reports.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 27px -733px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_PriceSet .x-btn-icon-el {
+    background-position: 25px -797px;
+}
+.cls_conta_GlobalRibbon_MainView a.cls_btn_GlobalRibbon_PriceSet.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background-position: 25px -862px;
+}
+/* menu - dropdown */
+
+.cls_btnMenu_GloblaRibbon_Aggrmnt {
+    /*display: none!important;*/
+}
+.cls_btn_GlobalRibbon_Aggrmnt .x-btn-wrap-default-small.x-btn-split-right:after {
+    /*display: none;*/
+}
+/* Main ribbon container Section CSS - End */
+/* Header container Css - Start */
+
+#headerContainer {
+    border-bottom: 1px solid #bcbdc1 !important;
+}
+/* cls_Global_CompanyLogo */
+
+.cls_Global_MenuBtn {
+    padding: 0;
+}
+.cls_Global_CompanyLogo {
+    background: url("../images/icons_sprite.png") no-repeat 0 0 transparent;
+    width: 143px;
+    height: 21px !important;
+    top: 18px !important;
+    left: 20px !important
+}
+
+/* search button and logout button */
+
+.cls_Global_TransparentBtn.x-btn, .cls_Global_TransparentBtn.x-btn.x-btn-over, .cls_Global_TransparentBtn.x-btn.x-btn-default-small.x-btn-pressed, .cls_Global_TransparentBtn.x-btn.x-btn-focus, .cls_Global_TransparentBtn.x-btn.x-btn-focus.x-btn-over.x-btn-default-small {
+    padding: 0;
+    border-right: 1px solid #d9d9d9;
+    border-radius: 0;
+    height: 30px!important;
+    top: 10px!important;
+}
+.cls_Global_TransparentBtn.x-btn .x-btn-icon-el, .cls_Global_TransparentBtn.x-btn.x-btn-over .x-btn-icon-el, .cls_Global_TransparentBtn.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el, .cls_Global_TransparentBtn.x-btn.x-btn-focus .x-btn-icon-el, .cls_Global_TransparentBtn.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background: url("../images/icons_sprite.png") no-repeat 0 -927px transparent;
+    width: 22px;
+    height: 22px!important;
+    margin: 0px 20px!important;
+    padding: 0;
+    top: 18px!important;
+    left: 644px!important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+#btn_Global_Header_Search {
+    left: 264px!important;
+}
+#btn_Global_Header_Search .x-btn-icon-el {
+    background-position: 0 -988px;
+}
+#btn_Global_Header_Logout {
+    border: none;
+}
+/* home button */
+
+.Cls_Global_Home_Count {
+    left: 330px!important;
+}
+.Cls_Global_Home_Count.x-btn, .Cls_Global_Home_Count.x-btn.x-btn-over, .Cls_Global_Home_Count.x-btn.x-btn-default-small.x-btn-pressed, .Cls_Global_Home_Count.x-btn.x-btn-focus, .Cls_Global_Home_Count.x-btn.x-btn-focus.x-btn-over.x-btn-default-small {
+    padding: 0;
+    border-right: 1px solid #d9d9d9;
+    border-radius: 0;
+    height: 30px!important;
+    top: 10px!important;
+}
+.Cls_Global_Home_Count.x-btn .x-btn-icon-el, .Cls_Global_Home_Count.x-btn.x-btn-over .x-btn-icon-el, .Cls_Global_Home_Count.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el, .Cls_Global_Home_Count.x-btn.x-btn-focus .x-btn-icon-el, .Cls_Global_Home_Count.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background: url("../images/icons_sprite.png") no-repeat 0 -1044px transparent;
+    width: 30px;
+    height: 32px!important;
+    margin: 0px 20px!important;
+    padding: 0;
+    top: 18px!important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+#btn_Global_Header_Home-btnInnerEl {
+    background-color: #01b696;
+    border-radius: 50%;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    height: 21px;
+    left: 36px;
+    right: auto;
+    line-height: 20px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+    width: 21px;
+}
+
+/* welcome text */
+
+
+.cls_Global_WelcomeText, .cls_Global_UserName, .cls_Global_UserRole_Separator, .cls_Global_Role, .cls_Global_LoggedInDate {
+    color: #24282c;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 12px;
+}
+
+
+.cls_Global_WelcomeText {
+    font-weight: 300;
+}
+.cls_Global_UserName {
+    border-right: 1px solid #66686a;
+    color: #66aced;
+    font-weight: 500;
+    height: 14px !important;
+    left: 52px !important;
+    padding-right: 3px;
+}
+.cls_Global_Role {
+    left: 122px !important;
+    width: 82px !important;
+}
+.cls_Global_LoggedInDate {
+    color: #b3b4b6;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    right: 0 !important;
+    top: 2px !important;
+    width: 200px;
+}
+/* Header container Css - End */
+/* Pricing Queue Text Css */
+
+.cls_Global_MainScreen{
+    left: 104px!important;
+}
+.cls_Global_MainScreenBody {
+    border-bottom: 1px solid #cfd1d2;
+}
+.clsStylishFieldSet {
+    background-color: transparent;
+}
+.cls_lbl_pricingQueue_ScreenName {
+    color: #40424b;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+    left: 20px !important;
+    line-height: 18px;
+    margin: 0 !important;
+    text-align: left;
+    text-transform: capitalize;
+    top: 10px !important;
+}
+.clsParentStylishFieldSet {
+    left: 20px !important;
+    top: 4px !important;
+}
+/* All Task Section Css - Strat */
+
+.cls_Conta_PricingQueue {
+    background: none repeat scroll 0 0 #f7f6f7;
+    border-bottom: 1px solid #bcbdc1;
+    height: 130px;
+}
+.cls_dataView_priceQueue_summary .x-dataview-item {
+     padding: 0;
+    margin: 0;
+	display:inline-block;
+	white-space:nowrap;
+}
+.cls_PricingQueueSummaryCountDV {
+    border-radius: 3px;
+    padding: 9px 12px;
+    height: 71px;
+    margin-right: 10px;
+}
+.color_Summary_Appealed, .color_Summary_WIP, .color_Summary_Published {
+    height: 71px;
+}
+.cls_dataView_priceQueue_summary .data_title {
+    color: #fff;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-top: 4px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.cls_dataView_priceQueue_summary .data_count {
+    color: #fff;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+}
+.cls_dataView_priceQueue_summary .data_lastUpdated {
+    float: right;
+    line-height: 11px;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+}
+.color_Summary_AllTask {
+    background-color: #838a9e;
+}
+.color_Summary_Appealed {
+    background-color: #66aced;
+}
+.color_Summary_WIP {
+    background-color: #ffa78c;
+}
+.color_Summary_Published {
+    background-color: #91d4b5;
+}
+.cls_Summary_Appealed_icon {
+    background: url("../images/icons_sprite.png") no-repeat scroll 0 -1111px transparent;
+    float: right;
+    height: 33px;
+    width: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cls_Summary_WIP_icon {
+    background: url("../images/icons_sprite.png") no-repeat scroll 5px -1181px transparent;
+    float: right;
+    height: 33px;
+    width: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cls_Summary_WIP_Published {
+    background: url("../images/icons_sprite.png") no-repeat scroll 0 -1251px transparent;
+    float: right;
+    height: 33px;
+    width: 34px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* All Task Section Css - End */
+/* Border below pricing quete container Css */
+
+.clsDummySiblingStylishFieldSet {
+    display: none;
+}
+/* switch button container Css - Start */
+
+
+
+
+/* switch button container Css - End */
+/* cls_conta_PriceQue_Opert_btns search, view buttons Css - Start */
+
+.cls_conta_PriceQue_Opert_btns a.x-btn {
+    margin-right: 20px;
+    width: 50px;
+    padding-top: 0;
+}
+.cls_conta_PriceQue_Opert_btns .x-btn-button {
+    vertical-align: top;
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn .x-btn-inner-default-small {
+    color: #676a6e;
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    line-height: 10px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: normal;
+    width: 44px;
+}
+/*
+.cls_btn_PQ_Opert_btn_search {
+    left: 66px!important
+}
+.cls_btn_PQ_Opert_clsFiltrs {
+    left: 116px!important
+}
+.cls_btn_PQ_Opert_Views {
+    left: 166px!important
+}
+.cls_btn_PQ_Opert_SaveView {
+    left: 216px!important;
+}*/
+.cls_conta_PriceQue_Opert_btns a.x-btn .x-btn-icon-el {
+    background: url("../images/icons_sprite.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 30px;
+    width: 44px;
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn .x-btn-icon-el.cls_btn_PQ_Opert_btn_search_icon {
+    background-position: 7px -1320px;
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn.x-btn-pressed .x-btn-icon-el.cls_btn_PQ_Opert_btn_search_icon {
+    background-position: 7px -1390px;
+    /*1390*/
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn .x-btn-icon-el.cls_btn_PQ_Opert_clsFiltrs_icon {
+    background-position: 7px -1460px;
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn.x-btn-pressed .x-btn-icon-el.cls_btn_PQ_Opert_clsFiltrs_icon {
+    background-position: 7px -1530px;
+    /*1530*/
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn .x-btn-icon-el.cls_btn_PQ_Opert_Views_icon {
+    background-position: 7px -1600px;
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn.x-btn-pressed .x-btn-icon-el.cls_btn_PQ_Opert_Views_icon {
+    background-position: 7px -1670px;
+    /*1670*/
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn .x-btn-icon-el.cls_btn_PQ_Opert_SaveView_icon {
+    background-position: 7px -1740px;
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn.x-btn-pressed .x-btn-icon-el.cls_btn_PQ_Opert_SaveView_icon {
+    background-position: 7px -1810px;
+    /*1810*/
+}
+.cls_conta_PriceQue_Opert_btns a.x-btn.x-btn-pressed .x-btn-inner-default-small {
+    color: #1accad;
+}
+.cls_txtFld_PQ_Searchfield .x-form-item-body {
+    vertical-align: top;
+}
+.cls_txtFld_PQ_Searchfield {
+    left: 28px!important;
+}
+.cls_txtFld_PQ_Searchfield .x-form-trigger-wrap-default {
+    border: none;
+    width: 180px;
+    /*
+    height: 30px;*/
+}
+.cls_txtFld_PQ_Searchfield .x-form-text-default {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    color: #95979a;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+}
+a.cls_btn_PQ_Opert_btn_search.x-btn.x-btn-disabled .x-btn-icon-el, a.cls_btn_PQ_Opert_btn_search.x-btn.x-btn-disabled .x-btn-inner-default-small, a.cls_btn_PQ_Opert_clsFiltrs.x-btn.x-btn-disabled .x-btn-icon-el, a.cls_btn_PQ_Opert_clsFiltrs.x-btn.x-btn-disabled .x-btn-inner-default-small, a.cls_btn_PQ_Opert_Views.x-btn.x-btn-disabled .x-btn-icon-el, a.cls_btn_PQ_Opert_Views.x-btn.x-btn-disabled .x-btn-inner-default-small, a.cls_btn_PQ_Opert_SaveView.x-btn.x-btn-disabled .x-btn-icon-el, a.cls_btn_PQ_Opert_SaveView.x-btn.x-btn-disabled .x-btn-inner-default-small {
+    opacity: 0.5;
+}
+/* cls_conta_PriceQue_Opert_btns search, view buttons Css - End */
+/* Task Container Css - Start */
+
+.cls_Conta_task {
+    top: 125px!important;
+}
+/* Task Container Css - End */
+/* View, Filter and Trade Area Css - Start */
+
+.cls_conta_PQ_FilterString {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.cls_img_PQ_viewName, .cls_img_PQ_FilterString {
+    height: 12px !important;
+    margin-top: 1px !important;
+}
+.cls_conta_PQ_FilterString .cls_lbl_PQ_viewName, .cls_lbl_PQ_FilterString {
+    color: #717477;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    left: 18px!important;
+}
+.cls_img_PQ_FilterString {
+    left: 140px !important;
+}
+.cls_lbl_PQ_FilterString {
+    left: 160px !important;
+    width: 240px;
+}
+/* View, Filter and Trade Area Css - End */
+
+.cls_conta_PriceQueue_Operation {
+    height: 92px;
+    padding-top: 24px;
+}
+/* Gris Container including Pagination - cls_conta_PQ_MainContaGrid - Css - Start */
+
+.cls_conta_PQ_MainContaGrid {
+    margin: 0px!important;
+    /*height: 270px;
+    overflow: auto;*/
+}
+
+.clsPricingQueuMyTaskGrid > .x-grid-header-ct {
+    border-bottom: 1px solid #b0b1b4!important;
+}
+.clsPricingQueuMyTaskGrid > .x-grid-header-ct, .clsPricingQueuMyTaskGrid > .x-grid-header-ct > .x-box-inner, 
+.cls_grid_Header.cls_PQ_grid_HyperlinkColumn, /*#gridcolumn-1071,*/ .cls_PQ_GCol_AgrQuo, .cls_PQ_GCol_Customer, .cls_PQ_GCol_JobName, .cls_PQ_GCol_NetRevenue, .cls_PQ_GCol_ProductLines, .cls_PQ_GCol_SubRegion, .cls_PQ_GCol_Region, .cls_PQ_GCol_SE, .cls_PQ_GCol_Territory, .cls_PQ_GCol_CustGroup, .cls_PQ_GCol_ReceivedDate, .cls_PQ_GCol_ReceivedDate, .cls_PQ_GCol_PricingAnalyst, .cls_PQ_GCol_AssignedBy {
+    height: 75px!important;
+}
+.cls_PQ_grid_NestedColumn {
+    background: #e5fbf1!important;
+}
+.cls_PQ_grid_NestedColumn > .x-column-header-inner {
+    height: 22px !important;
+    padding: 2px;
+}
+.cls_PQ_grid_NestedColumn .x-column-header-inner {
+    border-bottom: 1px solid #9aa8a2 !important;
+}
+.cls_PQ_grid_NestedColumn .x-column-header {
+    border-right: 1px solid #a6b7b3 !important;
+    overflow: visible;
+}
+#textfield-1078-inputWrap {
+    border-right: 1px solid #9aa8a2 !important;
+}
+
+.cls_PQ_GCol_DOA, .cls_PQ_GCol_DealScore, .cls_PQ_GCol_DOA .x-column-header-inner, .cls_PQ_GCol_DealScore .x-column-header-inner {
+    height: 23px!important;
+    border-top: none;
+}
+.cls_PQ_GCol_DOA .x-column-header-text, .cls_PQ_GCol_DealScore .x-column-header-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 30px;
+}
+.cls_PQ_grid_HyperlinkColumn .x-column-header-inner + div, .cls_PQ_GCol_AgrQuo .x-column-header-inner + div, .cls_PQ_GCol_DOA .x-column-header-inner + div, .cls_PQ_GCol_DealScore.x-column-header-inner + div, .cls_PQ_GCol_Customer .x-column-header-inner + div, .cls_PQ_GCol_JobName .x-column-header-inner + div, .cls_PQ_GCol_NetRevenue .x-column-header-inner + div, .cls_PQ_GCol_ProductLines .x-column-header-inner + div, .cls_PQ_GCol_SubRegion .x-column-header-inner + div, .cls_PQ_GCol_Region .x-column-header-inner + div, .cls_PQ_GCol_SE .x-column-header-inner + div, .cls_PQ_GCol_Territory .x-column-header-inner + div, .cls_PQ_GCol_CustGroup .x-column-header-inner + div, .cls_PQ_GCol_ReceivedDate .x-column-header-inner + div, .cls_PQ_GCol_PricingAnalyst .x-column-header-inner + div, .cls_PQ_GCol_AssignedBy .x-column-header-inner + div, .cls_PQ_GCol_AgeGroup .x-column-header-inner + div, .cls_PQ_GCol_CostMissing .x-column-header-inner + div, {
+    border-top: 1px solid #89929d;
+}
+.x-column-header {
+    border-right: 1px solid #c1c1c1 !important;
+}
+.cls_grid_Header .x-form-text-wrap {
+    padding: 4px 8px;
+}
+.clsPricingQueuMyTaskGrid .cls_grid_Header .x-form-text {
+    height: 20px;
+    padding: 0!important;
+    margin: 0!important;
+    width: 100%;
+    border: 1px solid #c0c0c0!important;
+    border-radius: 2px;
+}
+.cls_grid_Header .x-box-inner {
+    height: 30px !important;
+    overflow: visible;
+}
+.cls_PQ_grid_HyperlinkColumn > .x-column-header-inne {
+    padding: 10px 10px 0;
+}
+.cls_grid_Header .x-container, .x-column-header-checkbox {
+    background: #f4f3f3!important;
+    /*width: 25px!important; 18-Mar-2015 */
+}
+.x-column-header-checkbox .x-column-header-inner {
+    background: #fff!important;
+}
+#GridPricingQueuMyTask-body > .x-grid-view > .x-grid-item-container {
+    border-bottom: 2px solid #89929d;
+}
+.x-column-header.x-column-header-focus .x-column-header-inner:before, .cls_PQ_GCol_Customer {
+    border: none;
+}
+.clsPricingQueuMyTaskGrid .x-grid-with-col-lines .x-grid-cell {
+    border-right: 1px solid #b7b9bc;
+}
+#GridPricingQueuMyTask-body {
+    top: 75px!important;
+}
+.cls_PQ_grid_HyperlinkCell .x-grid-cell-inner a {
+    color: #000000 !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.cls_PQ_grd_DOA_1 .x-grid-cell-inner {
+    background: #ee5f5d;
+}
+.cls_PQ_grd_DOA_2 .x-grid-cell-inner {
+    background: #fb7171;
+}
+.cls_PQ_grd_DOA_3 .x-grid-cell-inner {
+    background: #dd4f4d;
+}
+.cls_PQ_grd_DOA_4 .x-grid-cell-inner {
+    background: #f4e070;
+}
+.cls_PQ_grd_DOA_5 .x-grid-cell-inner {
+    background: #6bdd87;
+}
+.cls_PQ_grd_DOA_6 .x-grid-cell-inner {
+    background: #cc3a38;
+}
+.cls_PQ_grd_DOA_7 .x-grid-cell-inner {
+    background: #ee5f5d;
+}
+.cls_PQ_grd_DOA_8 .x-grid-cell-inner {
+    background: #dd4f4d;
+}
+.cls_PQ_grd_DOA_1, .cls_PQ_grd_DOA_2, .cls_PQ_grd_DOA_3, .cls_PQ_grd_DOA_4, .cls_PQ_grd_DOA_5, .cls_PQ_grd_DOA_6, .cls_PQ_grd_DOA_7, .cls_PQ_grd_DOA_8, .cls_PQ_GCel_DealScore {
+    background: #e5fbf1 !important;
+}
+.cls_PQ_grd_DOA_1 .x-grid-cell-inner, .cls_PQ_grd_DOA_2 .x-grid-cell-inner, .cls_PQ_grd_DOA_3 .x-grid-cell-inner, .cls_PQ_grd_DOA_4 .x-grid-cell-inner, .cls_PQ_grd_DOA_5 .x-grid-cell-inner, .cls_PQ_grd_DOA_6 .x-grid-cell-inner, .cls_PQ_grd_DOA_7 .x-grid-cell-inner, .cls_PQ_grd_DOA_8 .x-grid-cell-inner {
+    border-radius: 5px;
+    display: block;
+    height: 11px !important;
+    margin: 8px 11px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 11px !important;
+}
+.x-grid-row-checker, .x-column-header-checkbox .x-column-header-text {
+    background: url("../images/chkUnchk_btn.png") no-repeat scroll 0 0px transparent;
+    height: 16px;
+    width: 16px;
+}
+.x-grid-hd-checker-on .x-column-header-text, .x-grid-item-selected .x-grid-row-checker, .x-grid-item-selected .x-grid-row-checker {
+    background: url("../images/chkUnchk_btn.png") no-repeat scroll 0 -56px transparent;
+    height: 16px;
+    width: 16px;
+}
+.tdcls_doa_column,.cls_PQ_GCel_DealScore{
+    background: none repeat scroll 0 0 #ecf9f3 !important;
+}
+.x-column-header.cls_PQ_grid_NestedColumn {
+    background: none repeat scroll 0 0 #d2e8dd !important;
+}
+.x-column-header.cls_PQ_grid_NestedColumn .x-column-header-inner, .x-column-header.cls_PQ_grid_NestedColumn .x-box-inner {
+    background: #e5fbf1;
+}
+/* css styling for Grid Section */
+/* Styling for Grid */
+
+.clsPricingQueuMyTaskGrid .x-form-date-trigger, .clsPricingQueuMyTaskGrid .x-form-trigger-default, .clsPricingQueuMyTaskGrid .x-column-header-focus, .clsPricingQueuMyTaskGrid .x-column-header, .clsPricingQueuMyTaskGrid .x-column-header-over, .clsPricingQueuMyTaskGrid .x-column-header-sort-ASC, .clsPricingQueuMyTaskGrid .x-column-header-sort-DESC {
+    background-color: transparent;
+}
+.clsPricingQueuMyTaskGrid .x-column-header-inner {
+    border-top: 2px solid #8a929d;
+    border-bottom: 1px solid #b0b1b4;
+    height: 45px;
+}
+.cls_PQ_GCol_DOA .x-column-header-inner, .cls_PQ_GCol_DealScore .x-column-header-inner {
+    border-top: medium none;
+    padding: 5px;
+}
+.clsPricingQueuMyTaskGrid .x-grid-header-ct, .clsPricingQueuMyTaskGrid .x-column-header.x-column-header-focus .x-column-header-inner:before {
+    border: none;
+}
+.clsPricingQueuMyTaskGrid .x-column-header-first {
+    border-left: none;
+}
+.x-column-header-text {
+    color: #000000;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: normal;
+}
+.clsPricingQueuMyTaskGrid .x-form-text-default {
+    background-color: white;
+    border: 1px solid #dde1e4 !important;
+    color: black;
+    font-size: 13px line-height: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    min-height: 21px;
+    padding: 8px 11px 3px;
+}
+.clsPricingQueuMyTaskGrid .x-form-text {
+    background: #fff;
+    border: 0 none;
+    border-radius: 3px;
+    display: block;
+    height: auto;
+    width: 94%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.clsPricingQueuMyTaskGrid .x-form-trigger-default {
+    padding-top: 14px;
+}
+.clsPricingQueuMyTaskGrid .x-grid-item {
+    background-color: #fff;
+}
+.clsPricingQueuMyTaskGrid .x-grid-item-alt {
+    background-color: #fafafa;
+}
+.clsPricingQueuMyTaskGrid .x-grid-cell {
+    border-right: 1px solid #b0b7b9;
+}
+#GridPricingQueuMyTask-body .x-grid-cell-inner {
+    color: #585b5a;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    position: relative;
+    text-overflow: ellipsis;
+}
+#GridPricingQueuMyTask-body .cls_PQ_GCel_AgrQuo {
+    text-transform: uppercase;
+}
+.clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item, .clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item.x-grid-item-over, .clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item.x-grid-item-selected, .clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item-selected + .x-grid-item, .clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item-over + .x-grid-item, .clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item.x-grid-item-over, .clsPricingQueuMyTaskGrid .x-grid-item.x-grid-item-alt {
+    border-bottom: 1px solid #b0b7b9;
+    border-top: medium none;
+}
+.clsPricingQueuMyTaskGrid .x-grid-item-focused .x-grid-cell-inner:before, .clsPricingQueuMyTaskGrid .x-form-trigger-wrap-default {
+    border: none;
+}
+.clsPricingQueuMyTaskGrid .x-operator-button {
+    left: 13px !important;
+    top: 14px !important;
+}
+.clsPricingQueuMyTaskGrid .x-grid-with-row-lines .x-grid-item:last-child {
+    border-width: 0px;
+}
+/* Pagination CSS */
+
+.cls_lbl_PQ_grdToolbar {
+    background: transparent;
+    padding: 0px;
+    top: 265px !important;
+}
+.cls_lbl_PQ_grdToolbar .x-box-inner {
+    background: none repeat scroll 0 0 transparent;
+}
+.cls_lbl_PQ_grdToolbar .x-form-text-wrap {
+    /*   border: 1px solid #b6bdbe;*/
+}
+.cls_lbl_PQ_grdToolbar, .cls_lbl_PQ_grdToolbar .x-box-inner {
+    border: none;
+}
+.cls_lbl_PQ_grdToolbar .x-btn {
+    background: none;
+}
+.cls_lbl_PQ_grdToolbar .x-btn-default-toolbar-small, .cls_lbl_PQ_grdToolbar .x-btn.x-btn-disabled {
+    background-image: none!important;
+    border: none!important;
+    background-color: transparent!important;
+}
+.cls_lbl_PQ_grdToolbar .x-tbar-page-first {
+    background: url('../images/pg_sprite.png') no-repeat 2px 2px transparent;
+}
+.cls_lbl_PQ_grdToolbar .x-tbar-page-prev {
+    background: url('../images/pg_sprite.png') no-repeat 2px -102px transparent;
+}
+.cls_lbl_PQ_grdToolbar .x-tbar-page-next {
+    background: url('../images/pg_sprite.png') no-repeat 2px -156px transparent;
+}
+.cls_lbl_PQ_grdToolbar .x-tbar-page-last {
+    background: url('../images/pg_sprite.png') no-repeat 2px -49px transparent;
+}
+.x-toolbar-default .x-toolbar-separator-horizontal {
+    border: none;
+}
+.cls_lbl_PQ_grdToolbar .x-toolbar-text-default, .cls_lbl_PQ_grdToolbar .x-form-text-default {
+    color: #afb2b8;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.cls_lbl_PQ_grdToolbar #tbtext-1035 {
+    left: 45px!important;
+    top: 8px!important;
+}
+
+.cls_lbl_PQ_grdToolbar .x-form-text-default {
+    border: 1px solid #b6bdbe !important;
+    color: #545756 !important;
+    font-weight: 500;
+    margin: 5px 0 14px;
+    padding: 0 2px;
+    text-align: center;
+    width: 100%;
+}
+/* footer */
+
+.cls_footerContainer {
+    left: 15px!important;
+    border-top: #cfd1d2;
+    height: 30px!important;
+    padding: 5px;
+}
+.cls_footerContainer .cls_lbl_Global_Text {
+    color: #9e9fa2;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    width:260px;
+}
+.clsParentStylishFieldSet:after {
+    background: url("../images/filter.png") no-repeat scroll 2px 1px transparent;
+    border: medium none;
+    height: 15px;
+    /* top: 104px !important; */
+    width: 48px;
+}
+.clsStylishFieldSet legend {
+    bottom: 0;
+    margin-bottom: -17px;
+    position: absolute;
+    right: 24px;
+    text-align: right;
+    width: 65px !important;
+    z-index: 5;
+}
+.clsStylishFieldSet .x-tool {
+    float: right !important;
+    margin-left: 40px;
+    margin-right: 45px;
+    right: 30px;
+    width: 100% !important;
+    z-index: 3;
+}
+.clsFieldset .x-fieldset-header-tool-default > .x-tool-toggle, .clsFieldset .x-fieldset-header-tool-default.x-tool-over > .x-tool-toggle {
+    background-image: url("../images/plus-minus.png");
+    background-position: 0 8px;
+    height: 13px;
+    opacity: 1;
+    width: 17px;
+    background-size: 14px auto;
+}
+.clsStylishFieldSet.x-fieldset-collapsed .x-tool-img.x-tool-toggle {
+    background-image: url("../images/plus-minus.png");
+    background-position: 0 -47px!important;
+    background-repeat: no-repeat;
+    background-size: 14px auto;
+}
+.clsStylishFieldSet.x-fieldset-collapsed {
+    top: 3px !important;
+}
+.cls_btn_PQ_Assign.x-btn, .cls_btn_PQ_Assign.x-btn.x-btn-over, .cls_btn_PQ_Assign.x-btn.x-btn-default-small.x-btn-pressed, .cls_btn_PQ_Assign.x-btn.x-btn-focus, .cls_btn_PQ_Assign.x-btn.x-btn-focus.x-btn-over.x-btn-default-small {
+    background: none repeat scroll 0 0 #66aced;
+    border-radius: 5px;
+    height: 45px;
+    left: 90px;
+    position: fixed;
+    top: 385px;
+    width: 40px;
+    z-index: 2;
+}
+.cls_btn_PQ_Assign.x-btn .x-btn-icon-el, .cls_btn_PQ_Assign.x-btn.x-btn-over .x-btn-icon-el, .cls_btn_PQ_Assign.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el, .cls_btn_PQ_Assign.x-btn.x-btn-focus .x-btn-icon-el, .cls_btn_PQ_Assign.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background: url("../images/icons_sprite.png") no-repeat scroll 0 -2095px transparent;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    height: 14px;
+    margin-left: 13px;
+    padding: 0;
+    width: 14px;
+    margin-top: 5px;
+}
+.cls_btn_PQ_Assign .x-btn-inner-default-small{
+    color: #dfecfb;
+    font-family: "Roboto",sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+/*.x-box-inner, .x-box-layout-ct, .x-panel, .x-panel-body{
+    overflow: visible!important;
+}*/

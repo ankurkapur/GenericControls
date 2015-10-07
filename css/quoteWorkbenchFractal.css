@@ -1,0 +1,2321 @@
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 13 Mar 2015;
+*/
+/* ------------------------ Build 10 Main view of quote summary screen CSS - Start ------------------------ */
+
+.clsQWSummaryScreenMain {
+    left: 0!important;
+    top: 0!important;
+}
+
+.clsQWSummaryScreenMain .clsLblQWSummaryChartHeader {
+    color: #000;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    height: 18px!important;
+    top: 6px!important;
+    margin-right: 20px;
+}
+
+.clsQWSummaryScreenMain .clsComboQuoteWbk {
+    border: 1px solid #66aced;
+    height: 30px;
+    width: 148px;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+.clsQWSummaryScreenMain .x-form-trigger-default,
+.clsQWSummaryScreenMain .x-form-trigger-default.x-form-trigger-over.x-form-trigger-focus,
+.clsQWSummaryScreenMain .x-form-trigger-over.x-form-trigger-focus {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 7px -1874px transparent;
+    width: 24px;
+}
+
+.clsQWSummaryScreenMain .x-form-trigger-wrap-default {
+    border: 0;
+}
+
+.clsCntContaQWSummaryLegend {
+    left: 920px!important;
+}
+
+.clsQWSummaryScreenMain .clsImgQWSummaryActualLegendColor,
+.clsQWSummaryScreenMain .clsImgQWSummaryTargetLegendColor {
+    top: 4px!important;
+    height: 9px!important;
+    width: 9px;
+}
+
+.clsQWSummaryScreenMain .clsCntContaQWSummaryLegend .cls_lbl_QW_ActualLegend,
+.clsQWSummaryScreenMain .clsCntContaQWSummaryLegend .cls_lbl_QW_targetLegend {
+    color: #676767;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 8px!important;
+    line-height: 16px;
+    left: 110px!important;
+}
+
+.clsQWSummaryScreenMain .clsCntContaQWSummaryLegend .cls_lbl_QW_ActualLegend {
+    margin-right: 20px!important;
+    left: 8px!important;
+}
+
+.cls_cnt_QW_Summary_grid {
+    width: 1133px!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-column-header,
+.cls_cnt_QW_Summary_grid .x-panel-default {
+    background: transparent;
+    border-right: 0px!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-panel-default .x-grid-header-ct > .x-box-inner {
+    height: 56px!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-panel-default .x-panel-body {
+    top: 56px!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-column-header {
+    border-top: 2px solid #89929d!important;
+    border-right: 1px solid #cdcdce!important;
+    height: 56px!important;
+}
+/*
+.cls_cnt_QW_Summary_grid .x-column-header .x-column-header-inner {
+    padding: 21px 10px;
+}*/
+
+.clsQWgridMsrClmn .x-column-header-text{
+    font-weight: 400!important;    
+    margin: 0;
+    text-align: right!important;
+}
+
+.cls_cnt_QW_Summary_grid .clsGridQWSummary .x-grid-inner-locked {
+    border-right: 2px solid #89929d!important;
+}
+
+.cls_cnt_QW_Summary_grid .clsQWgridTotalClmn {
+    background: #eff0f1;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-item .clsQWgridTotalCells {
+    background: #eff0f1;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-item-alt .clsQWgridTotalCells {
+    background: #ededef;
+}
+
+.clsGridQWSummary .x-panel-body .x-grid-inner-locked .x-panel-body {/*
+    left: 1px!important;*/
+    top: 54px!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-inner-locked .x-panel-body .x-grid-view {
+    margin-top: 2px!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-column-header-text {
+    color: #000;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 12px;
+}
+
+.clsQWgridDataClmn .x-column-header-over,
+.clsQWgridDataClmn .x-column-header-sort-ASC,
+.clsQWgridDataClmn .x-column-header-sort-DESC {
+    background: transparent;
+}
+
+.cls_cnt_QW_Summary_grid .clsQWgridMsrCells .x-grid-cell-inner {
+    color: #000;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+}
+
+.cls_cnt_QW_Summary_grid .clsQWgridDataCells .x-grid-cell-inner {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+    text-align: right!important;
+    padding: 9px 10px;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-with-row-lines .x-grid-item,
+.cls_cnt_QW_Summary_grid .x-grid-item-alt td:nth-child(4),
+.cls_cnt_QW_Summary_grid .x-grid-item-alt td:nth-child(5) {
+    background: transparent!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-with-row-lines .x-grid-item-alt {
+    background: #fbfbfb!important;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-with-row-lines .x-grid-item,
+.clsGridQWDetails .x-table-plain {
+    border-top: 1px solid #cdcdce;
+}
+
+.cls_cnt_QW_Summary_grid .x-grid-with-col-lines .x-grid-cell {
+    border-right: 1px solid #cdcdce;
+}
+
+.cls_cnt_QW_Summary_grid .clsQWgridTotalCells .x-grid-cell-inner {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #6b6b6c;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+    text-align: right!important;
+    padding: 9px 10px;
+}
+
+.clsComboQuoteWbk .x-form-text-default {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #66aced;
+    text-transform: uppercase;
+    height: 28px;
+}
+
+.x-grid-item-focused .x-grid-cell-inner::before {
+    border: 0px;
+}
+
+.clsQuoteSummaryTotalTooltip {    
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    padding-left: 10px;
+    background: transparent;
+}
+
+.clsQuoteSummaryTotalTooltip > .x-tip-body {
+    position: relative;
+    background-color: #67aced;
+    width: 176px!important;
+    height: 46px!important;
+    padding: 8px 0;
+    box-shadow: rgb(223, 221, 223) 0px 0px 5px;
+    overflow: visible;
+}
+
+.clsQuoteSummaryTotalTooltip > .x-tip-body:after {
+    left: 52%;
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #67aced;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.clsDisplayFieldQWPricing,
+.clsDisplayFieldQWSales {
+    padding: 2px 7px 0px 7px;
+}
+
+.clsDisplayFieldQWPricing .x-form-item-body-default,
+.clsDisplayFieldQWSales .x-form-item-body-default {
+    min-height: 18px;
+}
+
+.clsDisplayFieldQWPricing {
+    border-right: 1px solid #7eb9f0;
+}
+
+.clsDisplaylabelQWPricing .x-form-item-label-inner,
+.clsDisplayLabelQWSales .x-form-item-label-inner {
+    color: #d9e8fa;
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 0;
+    padding-bottom: 0!important;
+    line-height: 8px;
+}
+
+.clsDisplayFieldQWPricing .x-form-display-field,
+.clsDisplayFieldQWSales .x-form-display-field {
+    color: #d9e8fa;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 0;
+    line-height: 12px;
+    min-height: 18px;
+}
+
+.x-boundlist {
+    width: 148px!important;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #66aced;
+    border-top: none;
+}
+
+.x-boundlist-item {
+    cursor: pointer;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 6px 0;
+    color: #66aced;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    text-transform: none;
+    border: 0;
+    padding: 3px 5px;
+}
+
+.x-boundlist-item-over,
+.x-boundlist-selected {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 6px 0;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    text-transform: none;
+    border: 0;
+    padding: 3px 5px;
+    background-color: #4da0ed;
+}
+
+.x-boundlist-selected {
+    color: #fff;
+    font-weight: 300;
+}
+/* ------------------------ Build 10 Main view of quote summary screen CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 19 Mar 2015;
+*/
+/* ------------------------ Build 11 Main view of quote history screen CSS - Start ------------------------ */
+
+.clsQWHistoryMain {
+    margin: 0!important;
+    left: 0 !important;
+    top: 0!important;
+}
+
+.clsDataVIewQWHistory .clsQWHistoryMainSection {
+    background: #fff;
+    padding: 0;
+    margin-bottom: 3px;
+    -moz-box-shadow: 1px 0px 4px #d7d7d7;
+    -webkit-box-shadow: 1px 0px 4px #d7d7d7;
+    box-shadow: 1px 0px 4px #d7d7d7;
+    margin-left: 2px;
+}
+
+.clsDataVIewQWHistory .clsQWHistoryMainSection .clsQWHistoryHeaderSection {
+    background: #f6f7fa;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 18px 0 18px 15px;
+    border-left: 6px solid #f6f7fa;
+    /*width: 1120px!important;*/
+    
+    margin-top: 5px;
+}
+
+.clsQWHistoryHeaderCount {
+    border: 1px solid red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.clsQWHistoryHeaderDate {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #70737a;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    float: right;
+    margin-right: 15px;
+}
+
+.clsQWHistoryComment {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #24282c;
+    line-height: 18px;
+    min-height: 18px;
+    margin: 0;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.clsQWSummaryMain {
+    margin-left: 18px;
+    padding-left: 0;
+    margin-top: 28px;
+    width: 165px!important;
+    border-left: 1px solid #9cacbc;
+    padding-left: 10px;
+    padding: 2px 0 4px 8px;
+}
+
+.clsQWSummaryLabel {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    color: #7f8082;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 0!important;
+}
+
+.clsQWSummaryValue {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #24282c;
+    line-height: 18px;
+    min-height: 18px;
+    margin: 0;
+}
+
+.clsQWHistoryCommentLabel {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    color: #7f8082;
+    text-transform: uppercase;
+    line-height: 18px;
+    margin-left: 18px;
+}
+
+.clsQWHistoryBodySection {
+    border: 0;
+    padding: 20px 0;
+}
+
+.clsQWHistoryHeaderTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #24282c;
+    line-height: 18px;
+    min-height: 18px;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.clsQWHistoryHeaderName {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #66aced;
+    line-height: 18px;
+    min-height: 18px;
+    margin: 0;
+    padding: 0;
+    margin-left: 4px;
+}
+
+.clsQWHistoryHeaderCount {
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: left;
+    color: #66aced;
+    line-height: 18px;
+    min-height: 18px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* ------------------------ Build 11 Main view of quote history screen CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 19 Mar 2015;
+*/
+/* ------------------------ Build 7 Popup for Select Rule Buttons on Quote Details Screen CSS - Start ------------------------ */
+/*.clsContaQWDetailsContextBtnGrp {
+    display: none;
+}*/
+
+.clsContaQWDetailsContextBtnGrp a.x-btn,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-over,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-default-small.x-btn-pressed,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-focus,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-focus.x-btn-over.x-btn-default-small {
+    background: none repeat scroll 0 0 #66aced;
+    border-bottom: 1px solid #88bef1;
+    border-radius: 0px;
+    height: 45px;
+    left: 235%!important;
+    position: fixed;
+    width: 40px!important;
+    z-index: 2;
+}
+
+.clsContaQWDetailsContextBtnGrp a.x-btn:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.clsContaQWDetailsContextBtnGrp a.x-btn:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+a.clsBtnQWGrdContextBtnREJECT.x-btn {
+    top: 300px!important
+}
+
+a.clsBtnQWGrdContextBtnUNREJECT.x-btn {
+    top: 345px!important
+}
+
+a.clsBtnQWGrdContextBtnSELECTRULE.x-btn {
+    top: 390px!important
+}
+
+a.clsBtnQWGrdContextBtnEDIT.x-btn {
+    top: 435px!important
+}
+
+a.clsBtnQWGrdContextBtnDELETE.x-btn {
+    top: 480px!important
+}
+
+a.clsBtnQWGrdContextBtnUNDELETE.x-btn {
+    top: 525px!important
+}
+
+.clsContaQWDetailsContextBtnGrp a.x-btn .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-over .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-focus .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0 -2095px transparent;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    height: 20px;
+    margin-left: 10px;
+    padding: 0;
+    width: 20px;
+    margin-top: 0;
+}
+
+.clsContaQWDetailsContextBtnGrp a .x-btn-inner-default-small {
+    color: #dfecfb;
+    font-family: "Roboto", sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    white-space: normal;
+    text-overflow: initial;
+    line-height: 8px;
+    max-width: 30px;
+}
+
+.clsContaQWDetailsContextBtnGrp a.x-btn .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-over .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-focus .x-btn-icon-el,
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0 -2095px transparent;
+}
+
+a.clsBtnQWGrdContextBtnREJECT.x-btn .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnREJECT.x-btn.x-btn-over .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnREJECT.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnREJECT.x-btn.x-btn-focus .x-btn-icon-el,
+.clsBtnQWGrdContextBtnREJECT a.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background-position: 0px -2367px;
+}
+
+a.clsBtnQWGrdContextBtnUNREJECT.x-btn .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNREJECT.x-btn.x-btn-over .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNREJECT.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNREJECT.x-btn.x-btn-focus .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNREJECT.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background-position: 0px -2621px;
+}
+
+a.clsBtnQWGrdContextBtnSELECTRULE.x-btn .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnSELECTRULE.x-btn.x-btn-over .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnSELECTRULE.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnSELECTRULE.x-btn.x-btn-focus .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnSELECTRULE.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background-position: 0px -2430px;
+    /*-2494px;*/
+}
+
+a.clsBtnQWGrdContextBtnEDIT.x-btn .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnEDIT.x-btn.x-btn-over .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnEDIT.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnEDIT.x-btn.x-btn-focus .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnEDIT.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background-position: 0px -2494px;
+    /*-2558px;*/
+}
+
+a.clsBtnQWGrdContextBtnDELETE.x-btn .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnDELETE.x-btn.x-btn-over .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnDELETE.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnDELETE.x-btn.x-btn-focus .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnDELETE.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background-position: 0px -2558px;
+    /*-2621px;*/
+}
+
+a.clsBtnQWGrdContextBtnUNDELETE.x-btn .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNDELETE.x-btn.x-btn-over .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNDELETE.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNDELETE.x-btn.x-btn-focus .x-btn-icon-el,
+a.clsBtnQWGrdContextBtnUNDELETE.x-btn.x-btn-focus.x-btn-over.x-btn-default-small .x-btn-icon-el {
+    background-position: 0px -2684px;
+}
+
+.clsContaQWDetailsContextBtnGrp a.x-btn.x-btn-default-small.x-btn-pressed {
+    background: #4da0ed!important;
+}
+/*.cls_Global_MainScreen, .clsContaQWDetailsContextBtnGrp , .clsContaQWDetailsContextBtnGrp > .x-box-inner {
+    overflow: visible;
+}*/
+/* ------------------------ Build 7 Popup for Select Rule Buttons on Quote Details Screen CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 12 Mar 2015;
+*/
+/* ------------------------ Build 5 Popup by clicking on DEAL SCORE Panel CSS - Start ------------------------ */
+
+.clsQWDealScoreTooltip {
+    /*
+    display: block!important;*/
+    
+    position: relative;
+    background: #fff;
+    border: 2px solid #fff;
+    width: 230px!important;
+    left: 895px!important;
+    top: 192px!important;
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.clsQWDealScoreTooltip:after,
+.clsQWDealScoreTooltip:before {
+    bottom: 100%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.clsQWDealScoreTooltip:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 9px;
+    margin-left: -9px;
+}
+
+.clsQWDealScoreTooltip:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 9px;
+    margin-left: -9px;
+}
+
+.clsQWDealScoreTooltip > .x-tip-body {
+    width: 230px!important;
+    padding: 0;
+    box-shadow: rgb(223, 221, 223) 0px 0px 5px;
+    background: #fff;
+    position: relative;
+}
+
+.clsQWDealScoreTooltip .clsQWScoreLabel {
+    height: 60px;
+    width: 102px;
+    float: left;
+    background: #67aced;
+    padding: 14px 0 16px 14px;
+    line-height: 14px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: -0.3px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #dfecfb;
+    display: inline-block;
+    border-bottom: 1px solid #78b3ed;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond {
+    float: left;
+    width: 108px;
+    height: 60px;
+    border-bottom: 1px solid #f7f9fc;
+    padding: 10px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .clsQWDealScoreGradient {
+    background: url("./images/range.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+    width: 108px;
+    height: 3px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .clsQWNiddler {
+    background: #fff;
+    width: 2px;
+    height: 3px;
+    border: none;
+    top: 3px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .pointer0 {
+    left: 8px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .pointer5 {
+    left: 30px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .pointer10 {
+    left: 54px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .pointer15 {
+    left: 77px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .pointer20 {
+    left: 98px;
+}
+
+.clsQWDealScoreTooltip .clsQWDealScoreSecond .clsQWDealScoreLabelValue {
+    color: #eba6b7;
+    line-height: 18px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    width: 26px;
+    margin-left: -13px;
+}
+/* ------------------------ Build 5 Popup by clicking on DEAL SCORE Panel CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 11 Mar 2015;
+*/
+/* ------------------------ Build 4 Popup by clicking on DOA Panel CSS - Start ------------------------ */
+
+.clsQWDOATooltip,
+.clsQWDOATooltip .x-component,
+.clsQWDOATooltip .x-tip-body {
+    width: 290px!important;
+    height: 173px!important;
+}
+
+.clsQWDOATooltip .x-component {
+    height: 78px!important;
+}
+
+.clsQWDOATooltip .x-mask {
+    display: none!important;
+}
+
+.clsQWDOATooltip .x-mask,
+.clsQWDOATooltip .x-grid-item,
+.clsQWDOATooltip .cls_QW_GCol_DOA_Name,
+.clsQWDOATooltip .cls_QW_GCol_DOA_Requester,
+.clsQWDOATooltip .cls_QW_GCol_DOA_Reviewer,
+.clsQWDOATooltip .clsQWDOAPopupGrid .x-column-header-over,
+.clsQWDOATooltip .x-column-header-sort-ASC .x-column-header-text {
+    background: transparent;
+}
+
+.clsQWDOATooltip .cls_QW_GCol_DOA_Requester .x-column-header-text,
+.clsQWDOATooltip .cls_QW_GCol_DOA_Reviewer .x-column-header-text {
+    color: #d3e5f9;
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 0;
+}
+
+.clsQWDOATooltip .clsQWDOAPopupGrid .x-column-header {
+    border: none!important;
+}
+
+.clsQWDOATooltip .clsQWDOAPopupGrid .x-panel-body {
+    top: 20px!important;
+}
+
+.clsQWDOATooltip .cls_QW_GCel_DOA_Requester .x-grid-cell-inner,
+.clsQWDOATooltip .cls_QW_GCel_DOA_Reviewer .x-grid-cell-inner,
+.clsQWDOATooltip .cls_QW_GCel_DOA_Name .x-grid-cell-inner {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.clsQWDOATooltip .cls_QW_GCel_DOA_Name .x-grid-cell-inner {
+    font-size: 10px;
+    text-align: center;
+}
+
+.clsQWDOATooltip .clsQWDOAPopupGrid .x-grid-with-row-lines .x-grid-item {
+    border: none;
+}
+
+.clsQWDOATooltip .clsQWDOAPopupGrid .x-grid-with-row-lines .x-grid-item:last-child {
+    border-top: 1px solid #85bdf1;
+}
+
+.clsQWDOATooltip .cls_QW_GCel_DOA_Requester,
+.cls_QW_GCel_DOA_Name {
+    border-right: 1px solid #85bdf1;
+}
+/* QW-DOA Tooltip Css - Start */
+
+.clsQWDOATooltip .x-tip-anchor,
+.clsQWDOATooltip .x-grid-item-focused .x-grid-cell-inner::before {
+    display: none!important;
+}
+
+.clsQWDOATooltip {
+    padding-left: 32px;
+}
+
+.clsQWDOATooltip > .x-tip-body {
+    position: relative;
+    overflow: visible;
+    border-radius: 0px;
+    height: 293px!important;
+}
+
+.clsQWDOATooltip {
+    top: 194px!important;
+}
+
+.clsQWDOATooltip > .x-tip-body:after,
+.clsQWDOATooltip > .x-tip-body:before {
+    bottom: 100%;
+    left: 84%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.clsQWDOATooltip > .x-tip-body:after {
+    border-color: rgba(102, 172, 237, 0);
+    border-bottom-color: #66aced;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.clsQWDOATooltip > .x-tip-body:before {
+    border-color: rgba(102, 172, 237, 0);
+    border-bottom-color: #66aced;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+.clsQWDOATooltip,
+.clsQWDOATooltip > .x-tip-body {
+    height: 170px!important;
+    width: 290px!important;
+    background: #67aced;
+    padding: 0;
+    border: none;
+    box-shadow: rgb(223, 221, 223) 0px 0px 5px;
+}
+
+.clsQWDOATooltip {
+    left: 955px!important;
+}
+
+.clsQWDOATooltip > .x-tip-body {
+    padding: 15px 9px 9px 9px;
+}
+
+.clsQWDOATooltip .clsTxtDOAReviewer {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.clsQWDOATooltip .clsDOADownArrow,
+.clsQWDOATooltip .clsDOAUpArrow {
+    background: url("./images/icons_sprite.png") no-repeat scroll 0 -2045px rgba(0, 0, 0, 0);
+    border: medium none;
+    height: 8px;
+    width: 19px;
+}
+
+.clsQWDOATooltip .clsDOAUpArrow,
+.clsQWDOATooltip .clsTxtDOAReviewer {
+    top: -52px;
+    position: relative;
+    left: -8px;
+}
+
+.clsQWDOATooltip .clsTxtDOAReviewer {
+    top: -80px;
+    left: -22px;
+}
+
+.clsQWDOATooltip .wrapper2 .clsTxtDOAReviewer {
+    top: 0px;
+    left: -8px;
+}
+
+.clsQWDOATooltip .commonDOACellClass {
+    border: none;
+    border-top: 1px solid #b3d6f6;
+    border-bottom: 1px solid #b3d6f6;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 47px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 34px;
+}
+
+.clsQWDOATooltip .clsDOALevel1 {
+    border-left: 1px solid #b3d6f6;
+}
+
+.clsQWDOATooltip .clsDOALevel8 {
+    border-right: 1px solid #b3d6f6;
+}
+/* QW-DOA Tooltip Css - End */
+/* ------------------------ Build 4 Popup by clicking on DOA Panel CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 11 Mar 2015;
+*/
+/* ------------------------ Build 3 Tab section of Quote Details CSS - Start ------------------------ */
+/* Filter CSS - start */
+
+.clsImgQWFilterString {
+    display: none;
+}
+
+.clsLblQWFilterString {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0 -1651px transparent;
+    width: 90px;
+    /* height: 12px;*/
+    
+    display: inline-block;
+    padding-left: 16px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: #717477;
+    line-height: 16px;
+}
+/* Filter CSS - End */
+/* Grid CSSS - Start */
+
+/*
+.clsGridQWDetails {
+    top: 0px!important;
+    left: 0px!important;
+}*/
+
+.clsGridQWDetails .clsCntQWDetailsGrid {
+    /*top: 30px!important;*/
+}
+
+.clsGridQWDetails .clsCntQWDetailsGridConta {
+    left: 0px!important;
+}
+
+.clsGridQWDetails .x-grid-with-col-lines .x-grid-cell {
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid #c1c1c1;    
+    /*border-collapse: collapse;*/
+}
+
+.clsGridQWDetails .x-grid-with-col-lines .TdclsQWDetailsGrdPROPOSEDVOLUME.x-grid-cell,
+.clsQWDetailsGridParentHeader,
+.clsGridQWDetails .x-grid-with-col-lines .TdclsQWDetailsGrdPricFinalMulti.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .clsQWGrdDEALSCORE1.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .clsQWGrdDEALSCORE2.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .clsQWGrdDEALSCORE3.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .clsQWGrdDEALSCORE4.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .clsQWGrdDEALSCORE5.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .TdclsQWDetailsGrdTargetSMPerc.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .TdclsQWDetailsGrdrequesterSMPerc.x-grid-cell,
+.clsGridQWDetails .x-grid-with-col-lines .tdClsQWDetailsGrdReviewerPriceRealization.x-grid-cell {
+    border-right: 1px solid #000!important;
+}
+
+.clsGridQWDetails .x-grid-cell-inner {
+    padding: 3px 5px;
+}
+
+.clsGridQWDetails .x-grid-cell-row-checker .x-grid-cell-inner {
+    padding: 3px 4px 3px 4px!important;
+}
+
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item:first-child,
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item.x-grid-item-over:first-child {
+    border-top: 1px solid #b0b1b4;
+}
+
+.clsGridQWDetails .x-grid-item-alt td:nth-child(4),
+.clsGridQWDetails .x-grid-item-alt td:nth-child(5) {
+    background: none!important;
+}
+
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item,
+.clsGridQWDetails .x-table-plain {
+    border-top: 1px solid #d3d5d6;
+}
+
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item,
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item.x-grid-item-over,
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item-over + .x-grid-item {
+    /* border-left: 1px solid transparent; 18-Mar-2015 */
+    
+    height: 28px;
+}
+
+.clsGridQWDetails .x-table-plain {
+    /* border-left: 2px solid transparent; 18-Mar-2015 */
+}
+
+.clsGridQWDetails .clsGridQWDetails > .x-grid-header-ct > .x-box-inner {
+    height: 109px!important;
+}
+
+.clsGridQWDetails .clsGridQWDetails .x-panel-body {
+    top: 109px!important;
+}
+
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item {
+    background: transparent;
+    border-collapse: collapse;
+}
+
+.clsGridQWDetails .x-grid-with-row-lines .x-grid-item-alt {
+    background: #fbfbfb;
+}
+
+.clsGridQWDetails .x-grid-item .TdclsQWDetailsGrdPricTargetMulti,
+.clsGridQWDetails .x-grid-item .TdclsQWDetailsGrdPricRequestMulti,
+.clsGridQWDetails .x-grid-item .TdclsQWDetailsGrdPricReviewMulti {
+    background: #e2f1fe;
+}
+
+.clsGridQWDetails .x-grid-item-alt .TdclsQWDetailsGrdPricTargetMulti,
+.clsGridQWDetails .x-grid-item-alt .TdclsQWDetailsGrdPricRequestMulti,
+.clsGridQWDetails .x-grid-item-alt .TdclsQWDetailsGrdPricReviewMulti {
+    background: #eff4f9;
+}
+
+.clsGridQWDetails .x-grid-item .tdClsQWDetailsGrdReviewerDOA,
+.clsGridQWDetails .x-grid-item .tdClsQWDetailsGrdReviewerPriceRealization {
+    background: #e5fbf1;
+}
+
+.clsGridQWDetails .x-grid-item-alt .tdClsQWDetailsGrdReviewerDOA,
+.clsGridQWDetails .x-grid-item-alt .tdClsQWDetailsGrdReviewerPriceRealization {
+    background: #ecf9f3;
+}
+
+.clsGridQWDetails .x-group-sub-header .x-column-header-inner {
+    height: 52px!important;
+    background: #fff;
+}
+
+.clsGridQWDetails .clsQWDetailsGrdPricTargetMulti .x-leaf-column-header,
+.clsGridQWDetails .clsQWDetailsGrdPricRequestMulti .x-leaf-column-header,
+.clsGridQWDetails .clsQWDetailsGrdPricpricReviewMulti .x-leaf-column-header {
+    background: #e2f1fe;
+}
+
+.clsGridQWDetails .clsQWDetailsGrdPricTargetMulti.x-column-header,
+.clsGridQWDetails .clsQWDetailsGrdPricRequestMulti.x-column-header,
+.clsGridQWDetails .clsQWDetailsGrdPricpricReviewMulti.x-column-header {
+    background: #c9def1;
+}
+
+.clsGridQWDetails .clsQWDetailsGrdReviewerDOA .x-leaf-column-header,
+.clsGridQWDetails .clsQWDetailsGrdReviewerPriceRealization .x-leaf-column-header {
+    background: #e5fbf1;
+}
+
+.clsGridQWDetails .clsQWDetailsGrdReviewerDOA.x-column-header,
+.clsGridQWDetails .clsQWDetailsGrdReviewerPriceRealization.x-column-header {
+    background: #dbf4e8;
+}
+
+.clsGridQWDetails .x-column-header-checkbox > .x-column-header-inner {
+    top: 24px!important;
+    height: 55px!important;
+    border-top: 2px solid #89929d;
+    border-bottom: 1px solid #b0b1b4;
+}
+
+.clsGridQWDetails .x-column-header-text-wrapper,
+.clsGridQWDetails .x-column-header-text-container {
+    display: block;
+}
+
+.cls_image_dollar{
+    margin-right: 10px;
+    width: 7px!important;
+    height: 13px!important;
+}
+
+.cls_image_percent{
+    width: 10px!important;
+    height: 11px!important;
+}
+
+.clsQWDetailsGridParentHeaderPricing .x-column-header-inner .x-autocontainer-innerCt{
+    padding-right: 2px!important;
+}
+
+.clsGridQWDetails .x-group-sub-header .x-leaf-column-header .x-column-header-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+    line-height: 12px;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+/*.clsQWDetailsGridParentHeader{ 18-Mar-2015
+    left: 25px!important;
+}
+.clsQWDetailsGridParentHeaderPricing { 18-Mar-2015
+    left: 498px!important;
+}
+.clsQWDetailsGridParentHeaderReviewer { 18-Mar-2015
+    left: 722px!important
+}
+.clsQWDetailsGridParentHeaderTarget { 18-Mar-2015
+    left: 1129px!important;
+}
+.clsQWDetailsGridParentHeaderRequested { 18-Mar-2015
+    left: 1380px!important;
+}*/
+
+.clsQWDetailsGridParentHeader .x-box-target .x-column-header {
+    border-top: 2px solid #89929d!important;
+}
+
+.clsGridQWDetails .x-column-header {
+    background: #f4f3f3;
+}
+
+.clsGridQWDetails .x-column-header-inner {
+    background: #ebedf3;
+}
+/*
+.clsQWDetailsGridParentHeader .x-column-header-inner {
+    padding: 6px 5px;
+    height: 24px;
+}
+*/
+.clsQWDetailsGridParentHeader .x-box-target .x-column-header .x-column-header-text-wrapper {
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+.clsGridQWDetails .clsQWDetailsGridParentHeader .x-form-trigger-wrap-default {
+    border: none;
+    border-top: 1px solid #b0b1b4;
+    /*
+    border-bottom: 1px solid #b0b1b4;*/
+}
+
+.clsGridQWDetails .clsQWDetailsGridParentHeader .x-form-text-wrap {
+    padding: 4px 8px;
+}
+
+.clsGridQWDetails .clsQWDetailsGridParentHeader .x-form-text-default {
+    height: 20px;
+    padding: 0!important;
+    margin: 0!important;
+    width: 100%;
+    border: 1px solid #c0c0c0!important;
+    border-radius: 2px;
+}
+
+.clsQWDetailsGridParentHeader .x-column-header-text {
+    color: #505153;
+    display: block;
+}
+
+.clsGridQWDetails .clsGridQWDetails .x-grid-item-focused .x-grid-cell-inner::before {
+    border: none;
+}
+/*.clsGridQWDetails .clsGridQWDetails .x-grid-with-row-lines .x-grid-item{
+    border-left: 1px solid transparent;
+}*/
+/*.clsGridQWDetails .clsGridQWDetails .x-grid-with-row-lines .x-grid-item.x-grid-item-selected,
+ .clsGridQWDetails .x-grid-with-row-lines .x-grid-item.x-grid-item-over, 
+ .clsGridQWDetails .x-grid-with-row-lines .x-grid-item-selected + .x-grid-item, 
+ .clsGridQWDetails .x-grid-with-row-lines .x-grid-item-over + .x-grid-item {
+    border-color: #d3d5d6;
+}*/
+/*.clsGridQWDetails .clsGridQWDetails .x-grid-with-row-lines .x-grid-item.x-grid-item-selected {  18-Mar-2015
+    background: #e2f1fe;
+    border: 1px solid #5992c8;
+}*/
+
+.clsGridQWDetails .x-panel-body .tdClsQWDetailsGrdFLAG .x-grid-cell-inner {
+    background: none;
+    text-indent: -9999px!important;
+    text-align: left!important;
+}
+
+.clsGridQWDetails .x-panel-body .tdClsQWDetailsGrdFLAG1 .x-grid-cell-inner {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 2px -1698px transparent;
+    text-indent: -9999px;
+    margin: 0 5px;
+    width: 18px;
+    padding: 0;
+    height: 23px;
+    display: inline-block;
+    text-align: left!important;
+    cursor: pointer;
+}
+
+.clsGridQWDetails .x-panel-body .tdClsQWDetailsGrdFLAG2 .x-grid-cell-inner {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 2px -1763px transparent;
+    text-indent: -9999px;
+    margin: 0 5px;
+    width: 18px;
+    padding: 0;
+    height: 23px;
+    display: inline-block;
+    text-align: left!important;
+    cursor: pointer;
+}
+
+.TdclsQWDetailsGrdGOCLASS,
+.clsGridQWDetails .x-panel-body .x-grid-td {
+    vertical-align: middle;
+}
+
+.clsGridQWDetails .x-panel-body .x-grid-cell-inner {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+    text-align: right!important;
+}
+
+.clsGridQWDetails .x-panel-body .TdclsQWDetailsGrdGOCLASS .x-grid-cell-inner {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #000;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+}
+
+.clsGridQWDetails .x-panel-body .TdclsQWDetailsGrdCATALOGNO .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .TdclsQWDetailsGrdGOCLASS .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .TdclsQWDetailsGrdCOMPLEXITY .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .TdclsQWDetailsGrdSHIPCYCLE .x-grid-cell-inner {
+    text-align: left!important;
+}
+
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_1 .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_4 .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_7 .x-grid-cell-inner {
+    text-align: center!important;
+    background: #6bdd87;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 10px;
+    padding: 4px 0;
+    color: #000;
+}
+
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_2 .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_5 .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_8 .x-grid-cell-inner {
+    text-align: center!important;
+    background: #f9f1bd;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 10px;
+    padding: 4px 0;
+    color: #000;
+}
+
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_3 .x-grid-cell-inner,
+.clsGridQWDetails .x-panel-body .cls_QW_grd_DOA_6 .x-grid-cell-inner {
+    text-align: center!important;
+    background: #fb7171;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 10px;
+    padding: 4px 0;
+    color: #000;
+}
+
+.clsGridQWDetails .x-table-plain .x-grid-cell {
+    background: #eff0f1!important;
+    border-bottom: 2px solid #89929d!important;
+}
+
+.clsGridQWDetails .x-table-plain .x-grid-cell-inner {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6c6c6d;
+    line-height: 16px;
+    text-align: right!important;
+}
+
+.clsQWGrdDEALSCORE1 .x-grid-cell-inner,
+.clsQWGrdDEALSCORE2 .x-grid-cell-inner,
+.clsQWGrdDEALSCORE3 .x-grid-cell-inner,
+.clsQWGrdDEALSCORE4 .x-grid-cell-inner,
+.clsQWGrdDEALSCORE5 .x-grid-cell-inner {
+    border-right: 5px solid #e68da3;
+    height: 26px;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+.clsQWGrdDEALSCORE2 .x-grid-cell-inner {
+    border-right: 5px solid #e79bae;
+}
+
+.clsQWGrdDEALSCORE3 .x-grid-cell-inner {
+    border-right: 5px solid #e9aebc;
+}
+
+.clsQWGrdDEALSCORE4 .x-grid-cell-inner {
+    border-right: 5px solid #ebc6cd;
+}
+
+.clsQWGrdDEALSCORE5 .x-grid-cell-inner {
+    border-right: 5px solid #ede0e0;
+}
+/* Grid CSSS - End */
+/* Top customers - Popup CSS - Start  */
+
+.x-css-shadow {
+    box-shadow: none !important;
+}
+
+.x-tip-anchor {
+    display: none;
+}
+
+.clsMyMenu {
+    left: 18%!important;
+}
+
+.clsMyMenu,
+.clsMyMenu > .x-box-layout-ct,
+.clsMyMenu > .x-box-layout-ct .x-box-inner,
+.clsMyMenuItemLink {
+    overflow: visible;
+}
+
+.clsMyMenuItemLink {
+    padding-left: 6px;
+}
+
+.clsMyMenuItemLink > a {
+    position: relative;
+    background: #66aced;
+    width: 123px!important;
+    height: 27px!important;
+    box-shadow: 0 0 5px #696969;
+}
+
+.clsMyMenuItemLink > a:after {
+    right: 100%;
+    top: 30%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(102, 172, 237, 0);
+    border-right-color: #66aced;
+    border-width: 6px;
+    margin-top: 0px;
+}
+
+.clsMyMenu,
+.clsMyMenu .x-menu-body-default,
+.clsContextMenuItemText.x-menu-item-default,
+.clsContextMenuItemText.x-menu-item-default.x-menu-item-active {
+    background: none;
+    border: medium none;
+}
+
+.clsMyMenu .clsContextMenuItemText > a,
+.clsMyMenu .x-menu-item-text-default.x-menu-item-indent-no-separator {
+    color: #40434b;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Top customers - Popup CSS - End  */
+/* ------------------------ Build 3 Tab section of Quote Details CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 9 Mar 2015;
+*/
+/* ------------------------ Build 2 Tab section of Quote Header CSS - Start ------------------------ */
+/* Header tab section - CSS Start */
+
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-active.x-tab-default,
+.clsQWTabMainPanel .x-tab-bar .x-tab-default-top.x-tab-focus.x-tab-active {
+    border: 0;
+    box-shadow: none;
+}
+
+.clsQWTabMainPanel .x-tab-bar .x-tab {
+    /*min-width: 183px;*/
+    height: 45px;
+    border: 0;
+    box-shadow: none;
+}
+
+.clsQWTabMainPanel .x-tab-bar .x-tab {
+    top: 4px!important;
+}
+
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-active.x-tab-default {
+    background: url("./images/tab_active_l.png") no-repeat 0 -2px transparent;
+    padding: 0;
+    padding-left: 45px;
+    z-index: 10;
+}
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-active.x-tab-default > .x-tab-wrap {
+    background: url("./images/tab_active_r.png") no-repeat right -2px transparent;
+    padding: 0;
+    z-index: 10;
+    padding-right: 45px;
+}
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-default {
+    background: url("./images/tab_def_l.png") no-repeat 0 0 transparent;
+    padding: 0;
+    padding-left: 45px;
+}
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-default > .x-tab-wrap {
+    background: url("./images/tab_def_r.png") no-repeat right 0 transparent;
+    padding: 0;
+    padding-right: 45px;
+}
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-active2.x-tab-default{
+    background: url("./images/tab_sec_active_l.png") no-repeat 0 0 transparent;
+    padding: 0;
+    padding-left: 45px;
+}
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-active2.x-tab-default > .x-tab-wrap{
+    background: url("./images/tab_sec_active_r.png") no-repeat right 0  transparent;
+    padding: 0;
+    padding-right: 45px;
+}
+
+.clsQWHeaderTitle {
+    left: 0px!important;
+    z-index: 4;
+}
+
+.clsQWDetailTabTitle {
+    left: 145px!important;
+    z-index: 3;
+}
+
+.clsQWSummaryScreenTitle {
+    left: 290px!important;
+    z-index: 2;
+}
+
+.clsQWHistoryTitle {
+    left: 438px!important;
+    z-index: 1;
+}
+
+
+.x-tab.clsQWHeaderTitle .x-tab-inner-default,
+.x-tab.clsQWDetailTabTitle .x-tab-inner-default,
+.x-tab.clsQWSummaryScreenTitle .x-tab-inner-default,
+.x-tab.clsQWHistoryTitle .x-tab-inner-default {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #c7c9ce;
+    text-transform: uppercase;
+    line-height: 18px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.clsQWTabMainPanel .x-tab-bar .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #66aced;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.clsQWTabMainPanel .x-tab-default-top.x-tab-focus.x-tab-over {
+    border: 0;
+    box-shadow: none;
+}
+
+.clsQWTabMainPanel .x-tab-bar-top > .x-tab-bar-body-default,
+.clsQWGeneralInfoCollapseBtn,
+.clsQWCollapseBtn {
+    padding: 0;
+}
+
+.clsQWTabMainPanel .x-box-scroller-body-horizontal {
+    height: 49px!important;
+}
+
+.clsQWTabMainPanel .x-tab-bar-top > .x-tab-bar-strip-default {
+    height: 6px;
+    background: url(./images/bdrBg.gif) repeat-x 0 0 transparent;
+    z-index: 5;
+}
+/* Header tab section - CSS End */
+/* Accordian section - CSS Start */
+
+.clsQWTabMainPanel > .x-panel-body {
+    /*margin: 22px 0 0 22px;*/
+}
+
+.clsQWHeaderInfoMain {
+    background: #f6f7fa;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 18px 0 18px 15px;
+    /*18px 15px; 18-Mar-2015 */
+    
+    border-left: 6px solid #f6f7fa;
+    width: 1120px!important;
+    -moz-box-shadow: 1px 0px 4px #d7d7d7;
+    -webkit-box-shadow: 1px 0px 4px #d7d7d7;
+    box-shadow: 1px 0px 4px #d7d7d7;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.clsQWGeneralInfoTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #3c404b;
+    text-transform: uppercase;
+    line-height: 18px;
+    display: inline-block;
+    margin-left: 16px;
+    letter-spacing: -0.4px;
+}
+
+.clsMainSectionExpanded .clsQWGeneralInfoTitle {
+    font-size: 18px;
+}
+
+.clsQWGeneralInfoCollapseBtn .x-btn-icon-el,
+.clsQWCollapseBtn .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 4px -1114px transparent;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.clsQWGeneralInfoCollapseBtn.x-btn-pressed .x-btn-icon-el,
+.clsQWCollapseBtn.x-btn-pressed .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0px -1060px transparent;
+    width: 20px;
+    height: 12px;
+    display: inline-block;
+}
+
+.clsQWGeneralInfoCollapseBtn .x-btn-inner,
+.clsQWCollapseBtn .x-btn-inner {
+    display: none;
+}
+
+.clsQWRequstorInfoSubTitle,
+.clsQWGeneralInfoSubTitle,
+.clsQWCustInfoSubTitle,
+.clsQWCompetitorInfoSubTitle {
+    position: absolute;
+    left: 355px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #70737a;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+}
+
+.clsQWGeneralInfoJobNameMain {
+    margin-left: 8px;
+}
+
+.clsQWCompetitorEdit {
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    /*18-Mar-2015*/
+}
+
+.clsQWCompetitorEdit .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0px -1174px transparent;
+    width: 29px;
+    height: 28px;
+    display: inline-block;
+}
+
+.clsQWHeaderInfoMain.clsMainSectionExpanded {
+    background: #fff;
+    border: 0px solid #d1d1d1;
+    border-left: 6px solid #a3cdf4;
+    -moz-box-shadow: 1px 0px 4px #7B6D7B;
+    -webkit-box-shadow: 1px 0px 4px #7B6D7B;
+    box-shadow: 1px 0px 4px #7B6D7B;
+}
+
+.clsQWGeneralInfoBody {
+    margin-top: 18px;
+    margin-left: 28px;
+}
+
+.clsQWCompetitorSectionSatementMain .x-form-item-label-inner {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left;
+    color: #24282c;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+}
+
+.clsQWGeneralInfoBody .x-form-item-label-inner,
+.clsQWHeaderInfoName {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    color: #7f8082;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 0!important;
+}
+
+.clsQWGeneralInfoBody .x-form-display-field-default,
+.clsQWHeaderInfoValue {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #24282c;
+    text-transform: uppercase;
+    line-height: 18px;
+    min-height: 18px;
+    margin: 0;
+}
+
+.cls_dv_QW_Header_CompInfo {
+    left: 260px!important;
+}
+
+.cls_dv_QW_Header_CompInfo .x-dataview-item {
+    width: 260px;
+}
+
+.clsQWHeaderGeneralInfo {
+    border-left: 1px solid #9cacbc;
+    padding-left: 10px;
+    padding: 2px 0 4px 8px;
+}
+
+.clsQWCompetitorSectionSatementMain .x-form-trigger-wrap-default {
+    border: 0;
+}
+
+.clsQWMainContainerSatement,
+.clsDisplayFieldQWCompetitorReqNDC,
+.clsDispFieldQWCompetitorSalesP,
+.clsQWCompetitorEquip {
+    padding: 2px 0 4px 8px;
+    border: 1px solid #fff;
+}
+
+.clsQWCompetitorSectionSatementMain .x-form-field {
+    background: transparent;
+    font-size: 16px;
+    color: #24282c;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    min-height: 20px;
+}
+
+.clsQWMainContainerSatement .x-form-item-default.x-item-disabled {
+    opacity: 1;
+}
+
+.clsQWMainContainerSatement.clsMainSectionExpanded .x-form-field {
+    color: #66aced;
+}
+
+.clsQWMainContainerSatement.clsMainSectionExpanded,
+.clsNumFieldQWCompetitorReqNDC,
+.clsComboQWCompetitorSalesP {
+    border: 1px solid #66aced;
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 1011px -1568px transparent;
+}
+
+.clsQWMainContainerSatement {
+    width: 1025px!important;
+}
+
+.clsNumFieldQWCompetitorReqNDC .x-form-trigger-default,
+.clsComboQWCompetitorSalesP .x-form-trigger-default {
+    display: none;
+}
+
+.clsNumFieldQWCompetitorReqNDC,
+.clsComboQWCompetitorSalesP {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 236px -1570px transparent;
+    width: 250px;
+    margin-top: 28px!important;
+    top: 0px!important;
+    height: 44px!important;
+    padding: 2px 0 1px 8px;
+    margin-right: 10px;
+}
+
+.clsComboQWCompetitorSalesP {
+    top: 72px!important;
+}
+
+.clsNumFieldQWCompetitorReqNDC .x-form-trigger-wrap-default,
+.clsComboQWCompetitorSalesP .x-form-trigger-wrap-default {
+    background: transparent;
+    border: 0;
+}
+
+.clsNumFieldQWCompetitorReqNDC .x-form-text-default,
+.clsComboQWCompetitorSalesP .x-form-text-default {
+    background: transparent;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #66aced;
+    text-transform: uppercase;
+    line-height: 18px;
+    min-height: 18px;
+    height: 18px;
+    margin: -2px 0 0 0;
+}
+
+.clsQWCompetitorEdit.x-btn-pressed .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0px -1242px transparent;
+    width: 29px;
+    height: 28px;
+    display: inline-block;
+}
+
+.clsDisplayFieldQWCompetitorReqNDC,
+.clsDispFieldQWCompetitorSalesP,
+.clsQWHeaderGeneralInfo,
+.clsQWCompetitorEquip {
+    margin-top: 28px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 250px!important;
+    margin-right: 10px;
+}
+
+#container-1104-innerCt {
+    width: 250px!important;
+    margin-right: 10px;
+}
+
+.clsDispFieldQWCompetitorSalesP {
+    top: 100px!important;
+}
+
+.clsQWCompetitorEquip {
+    top: 218px!important;
+}
+/* Accordian section - CSS End */
+/* ------------------------ Build 2 Tab section of Quote Header CSS - End ------------------------ */
+/*
+  @Author : Fractalink Design Studio
+  @Dev : Payal Butala
+  @Date : 4 Mar 2015;
+*/
+/* ------------------------ Build 1 Main quote benchmark (section above tab) CSS - Start ------------------------ */
+/* Main quote benchmark (section above tab) CSS */
+
+.cls_Conta_Summary_Main {
+    /* height: 145px!important; */
+    background: #f7f6f7;
+    border-bottom: 1px solid #bcbdc1 !important;
+}
+
+.clsParentStylishFieldSet {
+    top: 15px !important;
+}
+
+.cls_lbl_quoteWorkbench_ScreenName {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    text-align: left;
+    color: #000;
+    display: block;
+    line-height: 24px;
+    letter-spacing: -1px;
+    padding: 10px 0 5px 20px;
+}
+
+.clsQWDataViewSummary1 {
+    background: #838a9e;
+    border-radius: 3px;
+    padding: 9px 12px;
+    width: 393px;
+    height: 71px!important;
+    margin-right: 10px;
+}
+
+.clsQWDataItemSummary2 {
+    padding: 9px 12px;
+    width: 204px;
+    height: 71px!important;
+    margin-right: 1px;
+    float: left;
+}
+
+.clsQWSummary2Revenue {
+    background: #66aced;
+}
+
+.clsQWSummary2TargetOpp {
+    background: #4f95d5;
+}
+
+.clsQWSummary2DealScore {
+    background: #3780c2;
+    width: 108px;
+}
+
+.clsQWSummary2DOA {
+    background: #fb7171;
+    width: 108px;
+    border-radius: 0 3px 3px 0;
+}
+
+.clsQWDataViewSummary1Name,
+.clsQWSummary2Value {
+    color: #fff;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    float: left;
+    letter-spacing: -1.8px;
+    margin-top: 4px;
+}
+
+.clsQWDataViewSummary1ptb {
+    float: left;
+    line-height: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.clsQWDataViewSummary1lastUpdated {
+    float: right;
+    line-height: 11px;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.clsQWDataViewSummary1Summary,
+.clsQWSummary2Name {
+    clear: left;
+    float: left;
+    line-height: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: -0.3px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.clsQWDataViewSummary1Summary {
+    text-transform: none;
+}
+
+.clsQWSummary2Name {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.clsQWSummary2DealScore .clsQWSummary2Value {
+    color: #dfc6db;
+}
+
+.clsBtnQWRequestor.x-btn,
+.clsBtnQWRequestor.x-btn.x-btn-over,
+.clsBtnQWReviewer.x-btn,
+.clsBtnQWReviewer.x-btn.x-btn-over {
+    background: #d9d9d9;
+    border-radius: 3px 0 0 0;
+    margin-right: 1px;
+    width: 101px;
+}
+
+.clsBtnQWReviewer.x-btn,
+.clsBtnQWReviewer.x-btn.x-btn-over {
+    border-radius: 0 0 0 3px;
+}
+
+.clsBtnQWRequestor.x-btn.x-btn-default-small.x-btn-pressed,
+.clsBtnQWRequestor.x-btn.x-btn-focus,
+.clsBtnQWRequestor.x-btn.x-btn-disabled,
+.clsBtnQWReviewer.x-btn-pressed,
+.clsBtnQWReviewer.x-btn.x-btn-default-small.x-btn-pressed,
+.clsBtnQWReviewer.x-btn.x-btn-focus,
+.clsBtnQWReviewer.x-btn.x-btn-disabled {
+    background: #01b696;
+    margin-right: 1px;
+}
+
+.clsBtnQWRequestor.x-btn.x-btn-default-small.x-btn-pressed .x-btn-inner-default-small,
+.clsBtnQWRequestor.x-btn.x-btn-focus .x-btn-inner-default-small,
+.clsBtnQWRequestor.x-btn.x-btn-over.x-btn-focus .x-btn-inner-default-small,
+.clsBtnQWRequestor.x-btn.x-btn-disabled .x-btn-inner-default-small,
+.clsBtnQWReviewer.x-btn.x-btn-default-small.x-btn-pressed .x-btn-inner-default-small,
+.clsBtnQWReviewer.x-btn.x-btn-focus .x-btn-inner-default-small,
+.clsBtnQWReviewer.x-btn.x-btn-over.x-btn-focus .x-btn-inner-default-small,
+.clsBtnQWReviewer.x-btn.x-btn-disabled .x-btn-inner-default-small {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    padding-top: 2px;
+}
+
+.clsBtnQWRequestor.x-btn .x-btn-inner-default-small,
+.clsBtnQWReviewer.x-btn .x-btn-inner-default-small,
+.clsBtnQWRequestor.x-btn.x-btn-over .x-btn-inner-default-small,
+.clsBtnQWReviewer.x-btn.x-btn-over .x-btn-inner-default-small {
+    color: #979cab;
+    font-weight: 200;
+    letter-spacing: -0.1px;
+    padding-top: 2px;
+}
+/* Action buttons CSS */
+
+
+.clsQWButtonContainer .x-btn-icon-el {
+    display: block;
+    height: 34px!important;
+}
+
+.clsQWButtonContainer.x-btn.x-btn-disabled .x-btn-icon-el,
+.clsQWButtonContainer.x-btn.x-btn-disabled .x-btn-inner-default-small {
+    opacity: 0.5;
+}
+
+.clsQWButtonContainer .x-btn-inner-default-small {
+    color: #676a6e;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 10px;
+    padding: 0;
+    text-align: center;
+    word-wrap: normal;
+    width: 48px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+.clsQWButtonContainer a.x-btn.x-btn-pressed .x-btn-inner-default-small {
+    color: #1accad;
+}
+
+.clsQWButtonContainer a.x-btn {
+    width: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.cls_btn_QW_refresh .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px 0 transparent;
+}
+
+.cls_btn_QW_refresh.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -70px transparent;
+}
+
+.cls_btn_QW_save .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -140px transparent;
+}
+
+.cls_btn_QW_save.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -210px transparent;
+}
+
+.cls_btn_QW_submit .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -280px transparent;
+}
+
+.cls_btn_QW_submit.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -350px transparent;
+}
+
+.cls_btn_QW_simulate .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -420px transparent;
+}
+
+.cls_btn_QW_simulate.x-btn.x-btn-default-small.x-btn-pressed .x-btn-icon-el {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -490px transparent;
+}
+/* Action button - more Popup CSS */
+
+.clsbtnQWbkMoreOptions.x-btn,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-over {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -560px transparent;
+    width: 48px;
+    height: 48px;
+}
+
+.clsbtnQWbkMoreOptions.x-btn.x-btn-default-small.x-btn-pressed {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -559px transparent;
+    width: 48px;
+    height: 48px;
+}
+
+.clsbtnQWbkMoreOptions.x-btn.x-btn-default-small.x-btn-pressed,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-focus,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-menu-active.x-btn-default-small,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-pressed.x-btn-default-small,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-disabled.x-btn-default-small {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 9px -630px transparent;
+    width: 48px;
+    height: 48px;
+}
+
+.clsbtnQWbkMoreOptions.x-btn.x-btn-default-small.x-btn-pressed .x-btn-inner-default-small,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-focus .x-btn-inner-default-small,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-menu-active .x-btn-inner-default-small,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-pressed .x-btn-inner-default-small,
+.clsbtnQWbkMoreOptions.x-btn.x-btn-disabled .x-btn-inner-default-small {
+    color: #1accad;
+}
+
+.clsbtnQWbkMoreOptions .x-btn-button {
+    width: 1px;
+    height: 1px;
+}
+
+.clsbtnQWbkMoreOptions .x-btn-inner-default-small {
+    position: absolute;
+    top: 36px;
+}
+
+.clsbtnQWbkMoreOptions .x-btn-wrap-default-small.x-btn-split-right:after {
+    padding-right: 20px;
+    background-image: url(images/button/default-small-s-arrow.png);
+    position: absolute;
+    left: 10px;
+    height: 30px;
+    width: 48px;
+}
+
+.clsMenuQWMoreBtn,
+.clsMenuQWMoreBtn .x-menu-body {
+    /*
+    visibility: visible!important;*/
+    
+    background: #66aced;
+}
+
+.clsMenuQWMoreBtn {
+    border: 1px solid #66aced;
+}
+
+.clsMenuQWMoreBtn {
+    /* left: 1095px!important; */
+    width: 168px!important;
+    /* top: 290px!important; */
+}
+
+.clsMenuQWMoreBtn a,
+.clsMenuQWMoreBtn .x-menu-body,
+.clsMenuQWMoreBtn .x-menu-item,
+.clsMenuQWMoreBtn .x-box-inner {
+    width: 165px!important;
+}
+
+.clsMenuQWMoreBtn .x-menu-item-text-default {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 10px;
+    padding: 0;
+    text-align: left;
+    word-wrap: normal;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 12px;
+    letter-spacing: -0.2px;
+}
+
+.clsMenuQWMoreBtn .x-menu-item {
+    height: 50px;
+    padding: 8px 0 0 10px;
+    border-bottom: 1px solid #75b2ed;
+}
+
+.clsMenuQWMoreBtn .x-menu-item:last-child {
+    border-bottom: none;
+}
+
+.clsMenuQWMoreBtn .x-menu-item.x-menu-item-active {
+    background: #4da0ee;
+}
+
+.clsMenuQWMoreBtn .x-menu-item-icon-default {
+    top: 0;
+    left: 0;
+}
+
+.clsMenuQWMoreBtn .x-menu-icon-separator-default {
+    border: none;
+    width: 0;
+}
+
+.clsMenuQWMoreBtn .x-menu-item-icon {
+    background: url("./images/qb_icons_sprite.png") no-repeat scroll 0 0 transparent;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 0 10px;
+}
+
+.clsbtnQWMoreClearFilters .x-menu-item-icon {
+    background-position: 0 -700px;
+}
+
+.clsbtnQWMoreChangeTime .x-menu-item-icon {
+    background-position: 0 -770px;
+}
+
+.clsbtnQWMoreFetchTarget .x-menu-item-icon {
+    background-position: 0 -850px;
+}
+
+.clsbtnQWMoreSelectRule .x-menu-item-icon {
+    background-position: 0 -920px;
+}
+
+.clsbtnQWMoreAddProduct .x-menu-item-icon {
+    background-position: 0 -990px;
+}
+
+.clsMenuQWMoreBtn {
+    position: relative;
+    overflow: visible;
+    border-radius: 4px;
+    height: 252px!important;
+}
+
+.clsMenuQWMoreBtn:after,
+.clsMenuQWMoreBtn:before {
+    bottom: 100%;
+    left: 86%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.clsMenuQWMoreBtn:after {
+    border-color: rgba(102, 172, 237, 0);
+    border-bottom-color: #66aced;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.clsMenuQWMoreBtn:before {
+    border-color: rgba(102, 172, 237, 0);
+    border-bottom-color: #66aced;
+    border-width: 11px;
+    margin-left: -11px;
+}
+/* second section */
+
+.clsQWSecondSection {
+/*     top: 145px!important; */
+}
+/* ------------------------ Build 1 Main quote benchmark (section above tab) CSS - End ------------------------ */
+
+/* CSS for scroll bar Start */
+ 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0;
+}
+::-webkit-scrollbar-thumb {
+    background: #a5aab8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;   
+    cursor:pointer;
+}
+
+/* CSS for scroll bar Ended */
